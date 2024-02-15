@@ -95,15 +95,15 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-    padding: 24px 0;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
@@ -119,6 +119,7 @@ img {
     gap: 40px;
 }
 .nav-link {
+    display: block;
     padding: 24px 0 24px;
     font-weight: 500;
     line-height: 150%;
