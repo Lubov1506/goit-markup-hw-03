@@ -48,8 +48,7 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
 }
 .row {
     display: flex;
@@ -129,9 +128,8 @@ img {
 .hero {
     background-color: var(--navy-blue);
 }
-.hero-section{
+.hero-section {
     padding: 188px 0;
-
 }
 .hero-container {
     justify-content: center;
@@ -200,6 +198,9 @@ h1 {
     width: calc((100% - 72px) / 4);
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
 }
 .team-item-desc {
     align-items: center;
