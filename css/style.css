@@ -50,6 +50,9 @@ img {
     margin: 0 auto;
     padding: 0 15px 0 15px;
 }
+.container{
+    padding: 0 15px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
