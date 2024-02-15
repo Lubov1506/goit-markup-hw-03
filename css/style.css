@@ -46,9 +46,9 @@ img {
 
 /* #region common */
 .container {
+    padding: 0 15px;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 .row {
     display: flex;
